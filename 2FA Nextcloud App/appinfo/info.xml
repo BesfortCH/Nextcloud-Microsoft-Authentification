@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<info xmlns:xsi= "http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
+    <!--
+    SPDX-FileCopyrightText: Besfort Ajeti <Besfortajeti915@gmail.com>
+    SPDX-License-Identifier: CC0-1.0
+    -->
+    <id>microsoftmfa</id>
+    <name>Microsoft M F A</name>
+    <summary>Secure Login with Microsoft Authenticator</summary>
+    <description><![CDATA[The Nextcloud app provides an additional layer of security by enforcing multi-factor authentication using the Microsoft Authenticator app. Users are prompted to set up this method to access their data. For those who haven&#x27;t set up multi-factor authentication yet, the app offers a simple option for setup within the platform, allowing users to enhance the security of their accounts effectively.]]></description>
+    <version>0.0.1</version>
+    <licence>agpl</licence>
+    <author mail="Besfortajeti915@gmail.com" >Besfort Ajeti</author>
+    <namespace>MicrosoftMFA</namespace>
+    <category>customization</category>
+    <category>security</category>
+    <bugs>https://github.com/BesfortCH/Nextcloud-Microsoft-Authentification/issues</bugs>
+    <dependencies>
+        <nextcloud min-version="27" max-version="27"/>
+    </dependencies>
+    <navigations>
+        <navigation>
+            <name>Microsoft M F A</name>
+            <route>microsoftmfa.page.index</route>
+        </navigation>
+    </navigations>
+</info>
